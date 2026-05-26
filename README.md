@@ -1,14 +1,10 @@
 ![Leeva](logo_ligero.jpg)
 
- ## 🌐 Leeva Browser
+ # 🌐 Leeva Browser
 
 Chromium
 
 ---
-
-## 🇬🇧 Spanish
-
-### 🚀 Overview
 
 Leeva Browser is an independent web browser based on Chromium, developed within the MDFJ ecosystem.
 
