@@ -1,33 +1,50 @@
-# Brave Browser
+![Leeva](logo_ligero.jpg)
 
-This repository is not needed for building the browser and only holds issues, releases and the wiki. The source code and contributions are at https://github.com/brave/brave-core.
+ ## 🌐 Leeva Browser
 
-## Resources
+Chromium
 
-- [Documentation and guides](https://github.com/brave/brave-core/blob/master/docs/README.md)
-- [Issues](https://github.com/brave/brave-browser/issues)
-- [Releases](https://github.com/brave/brave-browser/releases)
-- [Wiki](https://github.com/brave/brave-browser/wiki)
+---
 
-## Downloads
+## 🇬🇧 Spanish
 
-You can [visit our website](https://brave.com/download) to get the latest stable release.
+### 🚀 Overview
 
-## Contributing
+Leeva Browser is an independent web browser based on Chromium, developed within the MDFJ ecosystem.
 
-Please see the [contributing guidelines](https://github.com/brave/brave-core/blob/master/CONTRIBUTING.md).
+It eliminates dependence on Google services and introduces its own ecosystem focused on privacy, education, and user control.
 
-## Security Policy
+Leeva Browser is not a modified Chrome clone; it's a new browsing experience based on a modern web engine.
 
-Please see the [security policy](https://github.com/brave/brave-core/blob/master/SECURITY.md).
+---
 
-## Community
+### 🧠 Main Features
 
-[Join the Q&A community](https://community.brave.app/) if you'd like to get more involved with Brave. You can [ask for help](https://community.brave.app/c/support-and-troubleshooting),
-[discuss features you'd like to see](https://community.brave.app/c/brave-feature-requests), and a lot more. We'd love to have your help so that we can continue improving Brave.
+- 🔵 Based on the Chromium engine
+- 🔐 Integration with MDFJ accounts
+- 🔎 Leeva Search (custom search engine)
+- 🛡️ Integration with the CarlD security system
+- 📚 Leeva Study Mode (focus and education)
+- 📱 Quick access system via QR code
+- 🔒 Privacy-priority browsing
+- ⚙️ No dependency on Google services
 
-You can also ask questions and interact in the [`community-guest`](https://bravesoftware.slack.com) channel on Brave Software's Slack.
+---
+### 🧱 Architecture
 
-Help us translate Brave to your language by submitting translations at https://explore.transifex.com/brave/brave_en/.
+`text
+Chromium Engine
 
-Follow [@brave](https://x.com/brave) on X for important news and announcements.
+↓
+Leeva Browser Core (MDFJ)
+
+├── User Interface Layer (Leeva Interface)
+
+├── MDFJ Accounts
+
+├── Search Leeva
+
+├── CarlD Security
+├── Studio Mode
+
+└── MDFJ Synchronization System
