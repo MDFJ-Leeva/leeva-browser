@@ -1,46 +1,35 @@
 ![Leeva](logo_ligero.jpg)
 
- # 🌐 Leeva Browser
+## 🌐 Leeva Browser
 
-Chromium
+Leeva Browser is an independent web browser based on Firefox (Gecko engine), developed within the MDFJ ecosystem.
 
----
+It removes dependence on external services and builds its own ecosystem focused on privacy, education, and full user control.
 
-Leeva Browser is an independent web browser based on Chromium, developed within the MDFJ ecosystem.
+Leeva Browser is not a modified Firefox clone; it is a new browsing experience built on top of a modern, open web engine.
 
-It eliminates dependence on Google services and introduces its own ecosystem focused on privacy, education, and user control.
+🧠 Main Features:
 
-Leeva Browser is not a modified Chrome clone; it's a new browsing experience based on a modern web engine.
+-🔵 Powered by the Gecko engine (Firefox)  
 
----
+-🔐 MDFJ Account integration  
 
-### 🧠 Main Features
-
-- 🔵 Based on the Chromium engine
-- 🔐 Integration with MDFJ accounts
-- 🔎 Leeva Search (custom search engine)
-- 🛡️ Integration with the CarlD security system
-- 📚 Leeva Study Mode (focus and education)
-- 📱 Quick access system via QR code
-- 🔒 Privacy-priority browsing
+- 🔎 Leeva Search (custom search engine)  
+- 🛡️ CarlD Security System integration  
+- 📚 Leeva Study Mode (focus and education tools)  
+- 📱 QR-based quick access system  
+- 🔒 Privacy‑first browsing  
 - ⚙️ No dependency on Google services
 
----
-### 🧱 Architecture
+🧱 Architecture
 
-`text
-Chromium Engine
+Firefox Engine (Gecko)
 
-↓
-Leeva Browser Core (MDFJ)
+↓ Leeva Browser Core (MDFJ)
 
 ├── User Interface Layer (Leeva Interface)
-
 ├── MDFJ Accounts
-
-├── Search Leeva
-
+├── Leeva Search
 ├── CarlD Security
-├── Studio Mode
-
+├── Study Mode
 └── MDFJ Synchronization System
